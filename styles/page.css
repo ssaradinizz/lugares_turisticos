@@ -13,34 +13,37 @@
             font-style: italic;
             text-align: center;
         }
-        .divider{
-            height: 1px;
-            background: var(--border-primary);
-            margin-block: 4rem;
+    }
+
+    .divider{
+        height: 1px;
+        background: var(--border-primary);
+        margin-block: 4rem;
+    }
+
+    .amantes-historia{
+        margin-bottom: 6.4rem;
+    }
+
+    .destino_1,
+    .destino_2,
+    .destino_3{
+        img{
+            height: 35rem;
+            object-fit: cover;
+            border-radius: 2.8rem;
+            margin-bottom: 2rem;
         }
-        .amantes-historia{
-            margin-bottom: 6.4rem;
+
+        h3{
+            font-size: 2.8rem;
+            margin-bottom: .4rem;
         }
-    
-        .destino_1,
-        .destino_2,
-        .destino_3{
-            img{
-                height: 35rem;
-                object-fit: cover;
-                border-radius: 2.8rem;
-                margin-bottom: 2rem;
-            }
-    
-            h3{
-                font-size: 2.8rem;
-                margin-bottom: .4rem;
-            }
-            p{
-                margin-bottom: 2.4rem;
-            }
-        }}
-        .destino_1,
+        p{
+            margin-bottom: 2.4rem;
+        }
+    }
+    .destino_1,
     .destino_2{
         margin-bottom: 4.8rem;
 
@@ -48,21 +51,22 @@
             color: var(--accent-blue);
         }
     }
-        .destino_3{
-            ul{
-                li:nth-of-type(1){
-                    color: var(--accent-purple);
-                }
-                li:nth-of-type(2){
-                    color: var(--accent-pink);
-                }
-                li:nth-of-type(3){
-                    color: var(--accent-orange);
-                }
+
+    .destino_3{
+        ul{
+            li:nth-of-type(1){
+                color: var(--accent-purple);
+            }
+            li:nth-of-type(2){
+                color: var(--accent-pink);
+            }
+            li:nth-of-type(3){
+                color: var(--accent-orange);
             }
         }
-    
-        footer p{
-            text-align: center;
-        }
+    }
+
+    footer p{
+        text-align: center;
+    }
 }

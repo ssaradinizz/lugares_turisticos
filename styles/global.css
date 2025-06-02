@@ -45,7 +45,7 @@ p{
 
 ul {
     padding: 2.4rem;
-    font-family: 700;
+    font-weight: 700;
 
     li::marker {
         color: var(--text-secondary);
